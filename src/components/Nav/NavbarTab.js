@@ -11,8 +11,8 @@ function NavbarTab() {
             <Nav className="justify-content-end">
                 <Navbar.Text>...Coming Soon </Navbar.Text>
                 <Navbar.Text> Email</Navbar.Text>
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Link</Nav.Link>
+                <Nav.Link href="#contact">Contact</Nav.Link>
+                <Nav.Link href="#portfolio">Portfolio</Nav.Link>
             </Nav>
         </Navbar.Collapse>
     </Navbar>

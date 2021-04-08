@@ -1,6 +1,6 @@
 import React from "react";
-import NavbarTab from "../Nav/NavbarTab";
-import CardBody from "../Card/CardBody"
+import NavbarTab from "../../Nav/NavbarTab";
+import CardBody from "../../Card/CardBody"
 
 function Homepage() {
     return (
