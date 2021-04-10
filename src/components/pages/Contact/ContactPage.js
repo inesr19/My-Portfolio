@@ -1,11 +1,14 @@
 import React from "react";
+import Heading from "../../Header";
 import NavbarTab from "../../Nav/NavbarTab";
 
 function ContactPage() {
     return(
         <div>
             <NavbarTab />
-            <h1>Hello World</h1>
+            <Heading>
+                Contact
+            </Heading>
         </div>
         
     )
