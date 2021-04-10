@@ -1,14 +1,14 @@
 import React from "react";
+import { Card } from "react-bootstrap";
 
-function Projects() {
+function Projects(props) {
     return (
         <Card style={{ width: '18rem' }}>
         <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-            <Card.Img src={schedule} />
-            <Card.Link href="https://github.com/inesr19/Schedule-app" target='_blank'>Github</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            <Card.Title>{props.children}</Card.Title>
+            <Card.Img src={props.gif} />
+            <Card.Link href={props.href} target='_blank'>Github</Card.Link>
+            <Card.Link href={props.link} target='_blank'>Website</Card.Link>
         </Card.Body>
     </Card>
     );
