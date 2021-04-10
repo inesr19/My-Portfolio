@@ -9,14 +9,15 @@ import notetaker from "../../../assets/gifs/Note-Taker.gif"
 function Homepage(props) {
     return (
         <div>
-        <NavbarTab />
-        <Heading>
-            About Me
-        </Heading>
+        <NavbarTab /> 
         <Container>
             <Row>
                 <Col>
-                    <CardBody image={image} src={props.image} />
+                    <CardBody image={image} src={props.image}>
+                       <Heading>
+                           About Me
+                       </Heading>
+                    </CardBody>
                 </Col>
             </Row>
         </Container>

@@ -1,4 +1,5 @@
 import React from "react";
+import "../Card/style.css"
 
 function Heading({ children }) {
     return (
