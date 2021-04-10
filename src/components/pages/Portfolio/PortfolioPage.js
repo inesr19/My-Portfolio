@@ -10,6 +10,7 @@ import schedule from "../../../assets/gifs/Schedule.gif";
 import genpassword from "../../../assets/gifs/Password-Generator.gif";
 import notetaker from "../../../assets/gifs/Note-Taker.gif";
 import books from "../../../assets/gifs/Better-Books.gif";
+import Footer from "../../Footer";
 
 function PortfolioPage(props) {
     return (
@@ -69,6 +70,7 @@ function PortfolioPage(props) {
                     </Row>
                 </Col>
             </Container>
+            <Footer />
         </div>
     );
 }

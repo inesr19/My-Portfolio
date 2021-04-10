@@ -13,23 +13,15 @@ function Homepage(props) {
         <Container>
             <Row>
                 <Col>
-                    <CardBody image={image} src={props.image}>
-                       <Heading>
+                    <Heading>
                            About Me
-                       </Heading>
-                    </CardBody>
+                    </Heading>
+                    <hr/>
+                    <CardBody image={image} src={props.image} />
                 </Col>
             </Row>
         </Container>
-        <div>
-            <Container>
-                <Row>
-                    <Col>
-
-                    </Col>
-                </Row>
-            </Container>
-        </div>
+        
         <Footer />
         </div>
     )
