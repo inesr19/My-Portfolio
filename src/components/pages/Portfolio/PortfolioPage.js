@@ -2,7 +2,7 @@ import React from "react";
 import { CardColumns, Col, Container, Row } from "react-bootstrap";
 import Heading from "../../Header";
 import NavbarTab from "../../Nav/NavbarTab";
-import "../../pages/Portfolio/style.css";
+import "../../pages/Portfolio/portfolio.css";
 import Projects from "../../Project";
 import music from "../../../assets/gifs/Music-Spider.gif";
 import weather from "../../../assets/gifs/Weather-Dashboard.gif";
