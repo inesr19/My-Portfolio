@@ -7,3 +7,4 @@ The purpose of this react application is to showcase my portfolio for future emp
 ![portfolio](https://github.com/inesr19/My-Portfolio/blob/main/src/assets/gifs/portfolio.gif)
 
 ## Link
+[Portfolio](https://inesr19.github.io/My-Portfolio/)
