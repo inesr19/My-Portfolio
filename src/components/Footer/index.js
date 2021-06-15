@@ -9,10 +9,15 @@ import "../Footer/footer.css";
 function Footer() {
     return (
         <Card.Footer>
-            <Card.Img className="image" src={linkedIn} />
-            <Card.Link href={resumePdf} target='_blank' />
-            <Card.Img className="image" src={github}/>
-            <Card.Img className="image" src={resume}/>
+            <Card.Link href="https://www.linkedin.com/in/ines-radic/" target="_blank">
+                <Card.Img className="image" src={linkedIn} />
+            </Card.Link>
+            <Card.Link href={resumePdf} download="Resume" target="_blank">
+                <Card.Img className="image" src={resume}  />
+            </Card.Link>
+            <Card.Link href="https://github.com/inesr19" target="_blank">
+                <Card.Img className="image" src={github}/>
+            </Card.Link>
         </Card.Footer>
     )
 }
